@@ -18,34 +18,111 @@
 
 
 --------------------Creating Web Project in Eclipse
+-ServletDemo Project
+
+
 --------------------Create Servlet & Web.xml
+-action attribute in html
+-query string
+-service method
+-HttpServlet class and package in which it is defined - jakarta.servlet.http.HttpServlet
+-HttpServletRequest & HttpServletResponse classes
+-AddServlet.java, web.xml and Index.html in ServletDemo Project
+
+
 --------------------GET & POST Method
+-By default http protocols method is GET method
+-GET (for fetching the data), POST (for submitting the data), PUT, DELETE, PATCH, OPTIONS etc. methods
+-GET - Data in URL,  but POST will not push data to URL (query string)
+-doPost and doGet methods instead of service method
+
+
 --------------------RequestDispatcher | Calling a Servlet from Servlet
+-AddServlet.java, SquareServlet.java, web.xml and Index.html in ServletDemo Project
+-To call a servlet from servlet we have these options - 'RequestDispatcher' and 'Redirect'
+-Session Management concept
+
+
 --------------------HttpServletRequest & HttpServletResponse
+
+
+
 --------------------RequestDispatcher & sendRedirect Theory
+
+
 --------------------SendRedirect | URL Rewriting
+
+
 --------------------HttpSession | Cookie
+
+
 --------------------ServletConfig & ServletContext
+
+
 --------------------Servlet Annotation Configuration
+
+
 --------------------Why JSP ?
+
+
 --------------------How JSP Translated into Servlets ?
+
+
 --------------------JSP to Servlet Conversion | Netbeans
+
+
 --------------------JSP Tags | Scriptlet | Declaration | Directive | Expression
+
+
 --------------------JSP Directive | Page | Include | Taglib
+
+
 --------------------Implicit Object in JSP
+
+
 --------------------Exception Handling in JSP
+
+
 --------------------JDBC in JSP
+
+
 --------------------MVC Using Servlet & JSP
+
+
 --------------------JSTL Tutorial Part 1 EL
+
+
 --------------------JSTL Tutorial Part 2 Core Tags
+
+
 --------------------JSTL Tutorial SQL Tags Part 1
+
+
 --------------------JSTL Tutorial SQL Tags Part 2
+
+
 --------------------JSTL Tutorial Function Tags
+
+
 --------------------Servlet Filter Tutorial Theory
+
+
 --------------------Servlet Filter Practical
+
+
 --------------------Login Using Servlet & JSP
+
+
 --------------------How to Prevent Back Button after Logout Part 1
+
+
 --------------------How to Prevent Back Button after Logout Part 2
+
+
 --------------------Login Using Servlet & JSP | JDBC Part 3
+
+
 --------------------Servlet | JSP | JDBC | Maven Example
+
+
 --------------------File Upload in Java Servlet
