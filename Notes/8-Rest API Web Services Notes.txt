@@ -1,0 +1,20 @@
+--------------------What is REST API? | Web Service
+--------------------Restful Web Services  | Introduction
+--------------------Creating a Jersey Project in Eclipse
+--------------------Running our First Rest Jersey Application
+--------------------How to create a Resource Class
+--------------------List as Resource
+--------------------Mock Repository
+--------------------Creating a Resource
+--------------------How to install Postman
+--------------------Send a Post Request
+--------------------PathParam
+--------------------Working with JSON
+--------------------Mysql Repository part 1
+--------------------Mysql Repository part 2
+--------------------Consumes JSON and XML
+--------------------Update Resource using PUT method
+--------------------Delete Resource
+--------------------RESTful Web Services | Recap
+--------------------Spring Rest | Spring Boot Example
+--------------------Spring JPA | REST

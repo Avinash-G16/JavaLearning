@@ -1,0 +1,600 @@
+--------------------Introduction to Java Course
+-Core Java
+-Enterprise market/Application, Mobile Development, Web Development etc.
+-JVM - Java Virtual Machine - Multiple languages can run on it - Kotlin, Scala, Groovy etc.
+-Readable language
+-Maintainable
+-WORA - Write once run anywhere
+-Multithreads
+-Collection API
+-Exception Handling
+
+
+--------------------Java Development Kit setup
+-IDE - Integrated Development Environment
+-Type, Compile, Run, Debug
+-JDK - Java Development Kit
+-LTS - Long Term Support eg. Java 17
+-Java --version, Javac --version
+-Environment Variable Paths - System vs User Variable
+
+
+--------------------First code in java
+-javac - java compiler
+-.java extension
+-jshell, and /exit commands
+-methods
+-Use of semicolon
+-print in jshell
+
+
+--------------------How Java Works
+-.class extension -> Byte code file
+-Hello World program
+-JVM (is needed to run java application) - So java app is Platform independent
+-JVM is Platform dependent
+-byte code
+-Java code -> compiler (javac) -> Byte code -> JVM to run
+-main method (first file that jvm executes)
+-Signature for main -> public static void main(String a[])
+-JRE - Java Runtime Environment (JVM + Libraries) (WORA Only if machine has JRE)
+-JDK > JRE > JVM
+-public keyword in class
+
+
+--------------------Variables in Java
+-Data
+-Database - persistent/permanent storage
+-variable - temporary storage
+-Strongly typed language
+
+
+--------------------Data types in Java
+-print vs println
+-Assignment Operator
+-Variable program
+-primitive data types
+-int numbers - byte (1 byte - -128 to 127), short (2 bytes), int (4 bytes), long (8 bytes) (suffix 'l')
+-float numbers - double (8 bytes) (default in java), float (4 bytes) (suffix 'f')
+-character (char - 2 bytes) - follows UNICODE standard
+-boolean - true/false (does not follow 1 or 0 Convention)
+
+
+--------------------Literal
+-values for primitive data types
+-Literal program
+-pre increment & post increment
+
+
+--------------------Type conversion and Type Casting
+-smaller range variable can be assigned to larger range variable i.e. widening, this is called type conversion which is implicit (automatic)
+-Type casting - byte b, int a, => b = (byte)a; -> explicit conversion (forced)
+-TypeConversionCasting program
+-Type promotion
+
+
+--------------------Assignment Operators, Arithmetic Operators
+-AssignmentOp program
+-/ =>division quotient, % => division remainder
+
+
+--------------------Relational Operators
+-To compare the values
+-<, >, >=, <=, ==, !=
+
+
+--------------------Logical Operators
+-AND ('&&'), OR ('||'), NOT ('!') - Short circuiting
+
+
+--------------------If Else
+-IfElse program
+
+
+--------------------If Else if
+-IfElseIf program
+
+
+--------------------Ternary
+-Ternary program
+
+
+--------------------Switch Statement
+-Switch program
+
+
+--------------------Need for Loop
+-To repeat similar tasks
+-while, do-while, for, foreach
+
+
+--------------------While Loop
+-While program
+
+
+--------------------Do While Loop
+-DoWhile program
+
+
+--------------------For Loop
+-For program
+
+
+--------------------Which Loop To Use
+-if number of iterations are known beforehand - for loop, otherwise while loop, do-while when atleast 1 iteration is required
+
+
+--------------------Class And Object Theory
+-Object Oriented Programming
+-Object - Properties and Methods (Behaviours)
+-ObjectClass program
+-Class - A blueprint for Objects
+
+
+--------------------Class and Object Practical
+-ObjectClass program
+
+
+--------------------JDK JRE JVM
+-JDK - Java Development Kit
+-JRE - Java Runtime Environment
+-JVM - Java Virtual Machine
+-JDK > JRE (JVM + Libraries) > JVM
+
+
+--------------------Methods
+-Method program
+
+
+--------------------Method Overloading
+-MethodOverloading program
+
+
+--------------------Stack And Heap
+-Stack - (Last in first out) - Every method has its own Stack, Local variables
+-Heap - Objects, Instance variables
+
+
+--------------------Need of an Array
+-Variable that can hold multiple values of same type
+-Index starts from 0
+
+
+--------------------Creation of Array
+-Array program
+-By default the values of integer array elements will be '0'.
+-Index Out of bound exception - Runtime exception
+
+
+--------------------Multi Dimensional Array
+-MultiDimensionalArray program
+
+
+--------------------Jagged and 3D Array
+-Internal array length is not fixed - Rows - fixed, Columns - Not fixed
+-JaggedArray program
+
+
+--------------------Drawbacks of Array
+-Array in java is a object, created in heap memory.
+-Occupies space contiguously.
+-Size is fixed.
+-Holds same type of data only.
+
+
+--------------------Array of Objects
+-ObjectArray program
+
+
+--------------------Enhanced for loop
+-JaggedArray program
+
+
+--------------------What is String
+-StringProgram program
+-String is a class not a variable
+
+
+--------------------Mutable vs Immutable string
+-String uses constant pool - Immutable (By Default)
+-String buffer and String builder - Mutablity possible
+
+
+--------------------StringBuffer and StringBuilder
+-StringBuff program
+-String buffer is thread safe and string builder is not
+
+
+--------------------Static variable
+-StaticProgram program
+-Static variable is shared among all the objects
+-Static variables should be called via class name instead of object name
+-Belongs to class not to the object
+
+
+--------------------Static block
+-StaticProgram program
+-Static block will be called only one time
+-Static block is called before constructor
+-Two steps - Class loads (only one time in jvm) - Static block is called
+           - Objects get instantiated
+
+
+--------------------Static method
+-StaticProgram program
+-Static method can be called via class name
+-Non static variables can not be used inside static method but can be used via object specifying
+-Question - why main method is static?
+-Answer   - If it is not static, then we have to create a reference varibale of that class to access main method, but as main method is the starting point of program, how can we create a reference to that class without beginning the execution of the program, that is why main is static method.
+
+
+--------------------Encapsulation
+-Encapsulation program
+-Not all the data should directly be accessible outside the class
+-e.g. making properties/methods as private
+-Everytime when we create Instance variables, make it private
+
+
+--------------------Getters and setters
+-Encapsulation program
+
+
+--------------------This keyword
+-This program
+
+
+--------------------Constructor
+-Constructor program
+-Constructor is called everytime whenever we create the object of that class
+-Constructor does not return anything
+
+
+--------------------Default vs parameterized constructor
+-Constructor program
+-If we don't create the constructor java will create a default constructor behind the scenes
+
+
+--------------------This and super method
+-ThisAndSuper program
+-Every constructor has super() (calls the constructor of the super class) method even if we don't mention it
+-Every class in java extends the Object class
+
+
+--------------------Naming Convention
+-Camel Casing
+-Class and interface = Calc, Human, MyClass etc. (Start with capital letter)
+-Variables and methods = show(), num, showMyMarks etc. (Start with small letter)
+-Constants = PIE, BRAND etc, (All capital)
+
+
+--------------------Anonymous Object
+-AnonymousObject program
+-Cannot reuse the anonymous object
+
+
+--------------------Need of Inheritance
+-Code reusability
+-Parent class/Super class/Base class
+-Child class/Sub class/Derived class
+
+
+--------------------What is Inheritance
+-Inheritance program
+-Reduces redundancy
+
+
+--------------------Single and Multilevel inheritance
+-Inheritance program
+
+
+--------------------Multiple Inheritance
+-Multiple inheritance does not work in java due to ambiguity problem
+-It is possible via interfaces only
+
+
+--------------------Method Overriding
+-MethodOverRiding program
+
+
+--------------------Packages
+-Just like a folder organisation
+-'package' keyword for giving folder structure
+-'import' keyword for importing that package
+
+--------------------Access Modifiers
+-private, public, protected, default (no keyword is required for this)
+-If we want something to be accessed outside the package, we need to make that public, in same package it is not required
+-Methods should be public most of the times
+-Public - it can be accessed from anywhere
+-Private - it can be accessed only in the same class, irrespective of the package
+-Default - can be accessed inside the same package
+-Protected - can be used in same class, same package and in the other package but only in sub class
+-                       Private         Protected           Public          Default
+1.Same class             Yes             Yes                 Yes             Yes
+2.Same package           No              Yes                 Yes             Yes
+subclass
+3.Same package           No              Yes                 Yes             Yes
+non subclass
+4.Different package      No              Yes                 Yes             No
+subclass
+5.Different package      No              No                  Yes             No
+non subclass
+-We should not have 2 public classes in same file - general idea is we should have 1 class per file
+
+
+--------------------Polymorphism
+-Polymorphism = Poly (Many) + Morphism (Behaviour)
+-Two types -> (1) - Compile time(Early binding) - e.g. Overloading (2) - Run time (Late binding) - e.g. Overriding
+
+
+--------------------Dynamic Method Dispatch/Runtime Polymorphism
+-Polymorphism program
+
+
+--------------------Final keyword
+-FinalKeyword program
+-final variable -> variable becomes constant
+-final class -> cannot be inherited further
+-final method -> cannot be overridden
+
+
+--------------------Object Class equals toString hashcode
+-ObjectClassIllustration.java program
+-In java, 2 objects are equal to each other if they have same values for their properties and also has same hashcode.
+
+
+--------------------Upcasting and Downcasting
+-UpcastingDowncasting program
+
+
+--------------------Wrapper Class
+-Java is not purely object oriented programming language because it supports primitive data types
+-For every primitive type we have a class for it.
+-int -> Integer (class which extends the object class)
+-char -> Character
+-double -> Double
+-Wrapper program
+
+
+--------------------Abstract keyword
+-Abstract methods can be declared only in only Abstract class
+-If a class inherits the Abstract class, it need to define abstract method from the base class
+-It is not necessary that abstract class should have abstract method
+-If a class does not define all the abstract methods of a base class then child class also should be abstract
+-We can create object of concrete class only not of abstract class
+-Abstract program
+
+
+--------------------Inner class
+-static can be used only for inner class not to outer class
+-InnerClassDemo program
+
+
+--------------------Anonymous Inner class
+-AnonymousInnerClass program
+
+
+--------------------Abstract and anonymous inner class
+-AbstractInnerClass program
+
+
+--------------------What is Interface
+-Main program
+
+
+--------------------More on Interfaces
+-By default every method in interface is public abstract & 
+variables are final and static
+-cannot be instantiated
+-interface gives the design only, we need to implement those methods
+-multiple inheritance is achieved by interfaces
+-inheritance is possible between 2 interfaces
+-InterfaceDemo program
+
+
+--------------------Need of Interface
+-Main program
+
+
+--------------------What is Enum
+-named constants which we create
+-EnumDemo program
+
+
+--------------------Enum if and switch
+-EnumDemo program
+
+
+--------------------Enum Class
+-we cannot extend enum by other class (inheritance not possible)
+-by default in java enums extend the class Enum
+-EnumDemo2 program
+
+
+--------------------What is Annotation
+-also called metadata
+-to supply extra info to compiler
+-Annotation program
+
+
+--------------------Functional Interface
+-FunctInterface program
+
+
+--------------------Lambda Expression
+-can be used only with the functional interface
+-LambdaDemo program
+-Simplifies the anonymous class
+
+
+--------------------Lambda Expression with return
+-LambdaDemo1 program
+
+
+--------------------Types of Interface
+-Normal interface
+-Functional Interface/SAM (Single abstract method) - (only one method)
+-Marker interface (blank interface) (no method) (for info to compiler - like json serialization)
+
+
+--------------------What is Exception
+-Compile Time Error (Like syntax errors)
+-Runtime Error - like dividing by 0 
+-Logical Error (Wrong Logic/Bugs)
+
+
+--------------------Exception Handling using try catch
+-TryCatch program
+-Catch block will be only executed in case of exception, otherwise it will be skipped
+
+
+--------------------Try with multiple catch
+-MultipleCatch program
+
+
+--------------------Exception Hierarchy
+-Exception class catch should be Last because it is superclass
+-Object class(common for all in java) > 
+ Throwable class > 
+ Error class (ThreadDeath, IOError etc. ) 
+ = 
+ (Exception class 
+  > 
+  (runtime exception 
+   > Arithmetic, ArrayIndexOutOfBound, NullPointer ---all are called unchecked exceptions
+    (Compiler will not force to handle these)
+  ), 
+  (sql exception 
+   > IOException --- Checked Exception
+   (Compiler will force to handle these)
+  ) and many more
+ )
+
+
+--------------------Exception throw keyword
+-MultipleCatch program
+
+
+--------------------Custom exception
+-CustomException program
+
+
+--------------------Ducking Exception using throws
+-throws when applied to a method indicates that whatever exception arises in the method, they will not handle it, instead their calling method will handle that exception
+-DuckingException program
+
+
+--------------------User Input using BufferedReader and Scanner
+-println is method defined in PrintStream class
+-Input program
+
+
+--------------------Try with resources
+-TryWithResources program
+
+
+--------------------Threads
+-Multiple tasks/threads in a same code running at a same time also share resources
+-smallest unit of a task/code
+
+
+--------------------Multiple Threads
+-Threads program
+
+
+--------------------Thread Priority and Sleep
+-Threads program
+-priority range goes from 1 to 10
+-1 is the least and 10 is the maximum
+-sleep() sends the thread into waiting stage
+
+
+--------------------Runnable vs Thread
+-Thread1 program
+-Runnable is a functional interface and thread implements this interface
+
+
+--------------------Race Condition
+-Mutation - means something can be changed
+-If a resource is being shared among threads simultaneously, there can be possibility of loss/change of data or resource, this is race condition. So data should be immutable or should be thread-safe (at a time only one thread can use it)
+-RaceCondition program
+
+
+--------------------Thread states
+-New state, Runnable state, Running state, Waiting state, Dead state
+-New state-->start()-->Runnable state-->run()-->Running-->sleep() or wait()-->Waiting state-->notify()-->Runnable state-->run()-->Running state-->stop()(it is deprecated)-->Dead state
+-Runnable to dead is also possible with stop()
+
+
+--------------------Collection API
+-Iterators, Iterable
+-3 different parts in this topic
+    -Collection API/Framework - It is a concept
+    -Collection - Interface (list, queue,map, set etc.)
+    -Collections - Class (ArrayList, LinkedList, Dequeue, HashSet, LinkedHashSet etc)
+-Generics
+
+
+--------------------ArrayList
+-CollectionDemo program
+
+
+--------------------Set
+-Contains unique values only
+-CollectionDemo program
+-Treeset gives the sorted set
+
+
+--------------------Map
+-MapDemo program
+-Key and value pair
+-HashMap is non synchronized while HashTable is synchronized
+
+
+--------------------Comparator vs Comparable
+-Comparator is an interface
+-Sorting program
+
+
+--------------------Need of Stream API
+-StreamApiNeed program
+
+
+--------------------ForEach Method
+-StreamApiNeed program
+
+
+--------------------Stream API
+-StreamApi program
+-Once we have used a stream, we cannot reuse it
+
+
+--------------------Map Filter Reduce Sorted
+-MapFilterReduceSorted program
+-filter needs an predicate
+-parallelStreams
+
+
+--------------------About java 21 updates
+-unnamed class & instance main method
+
+
+--------------------LVTI - Local variable type inference
+-to declare a local variable we can use - 'var' keyword
+
+
+--------------------Sealed class
+-a class which cannot be inherited is final class
+-Sealed class specify which classes can inherite the sealed class, but child class should be final or sealed or non sealed classes
+-SealedClass program
+-Same for interface but there we cannot use final, only sealed or non sealed can be used
+
+
+--------------------Record Class
+-data carrier class
+-only to carry data not for changing the data (setter will not be available here)
+-Canonical constructor & Compact Canonical Constructor
+-record class can implement interfaces
+-by default every field is private and final
+-Cannot create intance variables
+-RecordClassDemo program

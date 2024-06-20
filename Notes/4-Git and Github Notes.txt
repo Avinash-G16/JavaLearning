@@ -1,0 +1,95 @@
+--------------------Git Intro
+-Version control
+-Collaboration
+-Commit === Saving the work
+
+
+--------------------Git version control
+-Distributed version control system
+-Local version control
+-Centralized version control system
+
+
+--------------------History of git
+-Open Source project
+-git started in 2005, before bitkeeper was used mostly
+-git - fast, branching, fully distributed
+
+
+--------------------Git Setup
+- git --version
+- git config
+- git config --global --list
+- git config --global user.name "avinash"
+- git config --global user.email "a@gmail.com"
+- git config user.name "avinash"
+- git config user.email "a@gmail.com"
+
+
+--------------------Git Init
+-Staging area
+-Commit history
+- git status
+- git init
+- git init -b main 
+
+
+--------------------Git commit
+- Commit - Saving the work
+- git add filename
+- git log
+- git commit -m "Some message here"
+-checksum commit ids
+
+
+--------------------Skipping the staging area
+- git commit -a -m "Some message here"
+
+
+--------------------Git diff command
+- git diff
+- git diff --staged
+
+
+--------------------Git remove file
+- git rm --cached finalname
+
+
+--------------------Github repository
+- git clone repohttpsaddress
+
+
+--------------------Adding files to remote repository
+- git branch -M main     
+- git remote add origin https://github.com/avinashgautam-AGL/GitTutorial.git
+- git push -u origin main
+- ssh-keygen -o
+
+
+--------------------Working with tags
+- git remove -v
+- git tag
+- annotated and lightweight tagging
+- git tag -a v1.0 -m "some message"
+- git show tagname
+
+
+--------------------Clone a project
+- git clone repohttpsaddress
+
+
+--------------------Git branching concept
+- git checkout -b branchname
+- git checkout branchname
+- git branch
+- git branch --all
+- git switch branchname
+- git switch -c branchname
+- git switch -
+- git branch -d branchname
+- git push origin branchname
+
+
+--------------------Git merge
+- git pull
+- git merge branchname

@@ -1,0 +1,113 @@
+--------------------Introduction 
+-JUnit5 is a testing Framework
+-SDLC - Software Development Life Cycle - Design -> Development -> Testing(Done by QA, Done post Development)
+-One method, group of methods/class etc. can be called as an unit in application, generally we refer unit as one method
+
+
+--------------------Testing and Unit testing
+-Testing(Usually done after Development) vs Unit Testing (Testing the functionality of App by Software developer while writing the code itself)
+-Unit testing Framework
+    prepare, setup a test Environment, write test methods
+    Provide testing Input
+    Run the test
+    Provided expected output
+    perform assertion (verify the result)
+    report test result (alert to developer whether test case is passed or failed)
+-in JUnit5 give the input and expected output, then JUnit5 will take care of the rest of things
+
+
+--------------------Need of Junit 5 (Testing Framework)
+-JUnit5 is not JUnit4 + new features
+-to use JUnit we can use any of them - Jupyter api, Vintage api, Extensions
+
+
+--------------------Maven project for Junit
+-Maven follows a structured approach for project
+-Artifact & Groupid meaning
+
+
+--------------------Running First Junit Test
+-@Test Annotation
+-assertEquals method - expected result and generated result
+-JunitLearning/Junit-class1 project
+
+
+--------------------Junit Test without Maven
+-fail method
+-Junit-02 project
+
+
+--------------------Writing Test with JUnit5 without Maven
+-Junit5 == Junit Jupiter
+-Junit-03 project
+
+
+--------------------@Test Annotation
+-Applied over methods to mark method as test
+-org.junit.jupiter.api  --- package (junit5)
+-Visibility of @Test Annotated method can be public, protected or default
+-By default testcases Behavior is success (if we dont write anything in method body, it will still success) - means it checks for failure, i.e if it is not failing then it is passed
+-Also, informs test engine what method needs to Run
+
+
+--------------------Assertions
+-Assertion - verification between expected and actual result
+-if Expectation == Reality (Actual output) -> TestCase passed
+    else TestCase failed
+-Assertions - static methods - assertEquals, assertArrayEquals etc.
+-org.junit.jupiter.Assertions
+-Supports features of java8 (Lambda expressions, StreamApi etc.)
+-Junit-04 project
+
+
+--------------------Write Test then Code
+-Test driven Development - Write test then code methodology
+-Junit-05 project
+
+
+--------------------JUnit5 Maven project setup
+-Junit-06 project
+
+
+--------------------Surefire plugin integration for maven project
+-Junit-06 project
+-Without using eclipse inbuilt test feature
+
+
+--------------------More on assertEquals() method
+-SupplierInterface
+-Junit-05 project
+-assertNotEquals - test case gets passed only if expectation is not equal to reality
+-assertTrue and assertFalse methods
+-Junit-07 project
+
+
+--------------------Assertion over an array
+-assertArrayEquals() method
+-passes if actual and expected arrays are equal
+    -Number of elements should match
+    -Elements of array should be equal
+    -Order of elements in arrays should be equal
+-Junit-08 project
+
+
+--------------------Testing Exception with try-catch and assertThrows() method
+-Junit-08 project
+
+
+--------------------Testing performance with assertTimeout() and timeout attribute
+-Junit-08 project
+
+
+--------------------@BeforeEach and @AfterEach
+-Junit-06 project
+
+
+--------------------@BeforeAll and @AfterAll
+-Junit-06 project
+
+
+--------------------TestInstance Behavior
+-total number of instances in test class == number of test cases
+-for creating only instance for all test case --- @TestInstance
+-Junit-06 project

@@ -1,0 +1,51 @@
+--------------------Introduction to Servlet
+-Client ->Request-> Server ->Response-> Client
+-Servlets are the java files/functionalality which can take the request from the client and it can process that request and can provide Response
+-Request from servlet goes to web container(Helper class)(For Example - Tomcat)
+-Deployment descriptor - web.xml
+-When we create a servlet - we create a normal class which extends HttpServlet class
+-Mapping can also be done using Annotations instead of web.xml file
+
+
+--------------------Eclipse Setup & Tour
+-Perspective
+
+
+--------------------Configure Tomcat in Eclipse
+
+
+--------------------Eclipse & Tomcat Setup on Windows
+
+
+--------------------Creating Web Project in Eclipse
+--------------------Create Servlet & Web.xml
+--------------------GET & POST Method
+--------------------RequestDispatcher | Calling a Servlet from Servlet
+--------------------HttpServletRequest & HttpServletResponse
+--------------------RequestDispatcher & sendRedirect Theory
+--------------------SendRedirect | URL Rewriting
+--------------------HttpSession | Cookie
+--------------------ServletConfig & ServletContext
+--------------------Servlet Annotation Configuration
+--------------------Why JSP ?
+--------------------How JSP Translated into Servlets ?
+--------------------JSP to Servlet Conversion | Netbeans
+--------------------JSP Tags | Scriptlet | Declaration | Directive | Expression
+--------------------JSP Directive | Page | Include | Taglib
+--------------------Implicit Object in JSP
+--------------------Exception Handling in JSP
+--------------------JDBC in JSP
+--------------------MVC Using Servlet & JSP
+--------------------JSTL Tutorial Part 1 EL
+--------------------JSTL Tutorial Part 2 Core Tags
+--------------------JSTL Tutorial SQL Tags Part 1
+--------------------JSTL Tutorial SQL Tags Part 2
+--------------------JSTL Tutorial Function Tags
+--------------------Servlet Filter Tutorial Theory
+--------------------Servlet Filter Practical
+--------------------Login Using Servlet & JSP
+--------------------How to Prevent Back Button after Logout Part 1
+--------------------How to Prevent Back Button after Logout Part 2
+--------------------Login Using Servlet & JSP | JDBC Part 3
+--------------------Servlet | JSP | JDBC | Maven Example
+--------------------File Upload in Java Servlet

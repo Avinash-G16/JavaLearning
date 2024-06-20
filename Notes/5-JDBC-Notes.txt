@@ -1,0 +1,41 @@
+--------------------JDBC
+-JDBC === Java Database Connectivity
+-RDBMS === Relational database management system
+-Drivers - Native driver (ODBC), Native API etc.
+-7 steps to connect with database
+    1 - Import the package ----- (java.sql.*;)
+    2 - 
+        a - Load ----- (com.mysql.jdbc.Driver) driver name - mysql-connector
+        b - Register the driver ----- (Class.forName("com.mysql.jdbc.Driver");)
+    3 - Establish the connection ----- instatiate the Connection interface
+    4 - Create the statement ----- Statement, Prepared Statement (if have pre-defined query), Callable Statement (for Stored procedures)
+    5 - Execute the query
+    6 - Process the query
+    7 - Close the connection
+
+import java.sql.*;
+main()
+{
+    Class.forName("com.mysql.jdbc.Driver");
+    Connection con = DriverManager.getConnection("url","username","password");
+    Statement st = con.createStatement();
+    ResultSet rs = st.executeQuery("select * from Student");
+    while(rs.next())
+    {
+        System.out.println(rs.getInt(1) + " " + rs.getString(2)); 
+        /*lets say a student table contains rs has two tables - column 1 - roll no of integer types, and column 2 - student name of string type*/
+    }
+    st.close();
+    con.close();
+}
+
+-DDL, TCL, DML, DQL Statements in db
+
+
+--------------------Java Database Connectivity Practical
+-JDBCDemo Project
+
+
+--------------------Java Database Connectivity with DAO Example
+-DAO - Data access object
+-JDBCDaoDemo project

@@ -1,0 +1,100 @@
+--------------------What are Data Structures and Algorithm
+-To use/store/organize data effectively/efficiently (performance & memory) we use data Structures
+-Algorithm - well defined set of steps/instructions to perform a task
+
+
+--------------------Abstract Data Types
+-data types - int, float, char, string etc - primitive data types
+-Data and operations to be performed - Array, String, List, Set, Queue, Tree OR own data types etc - Abstract data types
+-Stack - Last in First out / First in Last out
+-Queue - First in First out / Last in Last Out
+
+
+--------------------Arrays
+-Read Operation - getting the element at index
+-Search, Insertion, Deletion Operations
+
+
+--------------------Time complexity 
+-Worst (important) - Big-Oh (O) notation, average & best case
+-What is good Algorithm - an Algorithm which takes up less memory and less Time
+-Time complexity (how the exectution increases with respect to increase in the input size) and Space complexity (how the memory consumption with respect to increase in the input size)
+
+
+--------------------Linear and Binary Search
+-LinearSearch program
+-BinarySearch program
+
+
+--------------------Bubble Sort
+-O(n^2) time complexity in worst case
+-pass needed - n-1
+-Swaps needed - n*(n-1)/2
+-BubbleSort program
+
+
+--------------------Selection Sort
+-Here number of swaps will be reduced as compared to bubble sort
+-O(n^2) time complexity in worst case
+-SelectionSort program
+
+
+--------------------Insertion sort
+-O(nlogn) on average
+-InsertionSort program
+
+
+--------------------Quick Sort
+-O(nlogn) on average and O(n^2) in worst case
+-O(1) space complexity
+-Divide & Conquer
+-Pivot
+-Uses recursion
+-QuickSort program
+
+
+--------------------Merge Sort
+-Divide & Conquer
+-O(nlogn) time complexity
+-O(n) space complexity
+-Uses recursion
+-MergeSort program
+
+
+--------------------Linked List  Data Structures
+-value and address of the next node
+-Expandable unlike Array
+-Cannot fetch value randomly (Slow element access - O(n))
+-LinkedListDemo program
+
+
+--------------------What is Stack, Implementation using Java Push Pop Peek Methods
+-An ADT (abstract data type)
+-First in Last out or Last in First out (LIFO)
+-add == push, delete == pop, find == peek
+-Only one entry and exit point
+-top of Stack, overflow and underflow conditions
+-size of the Stack, isEmpty method
+-StackDemo program
+
+
+--------------------Queue Implementation using Java
+-An ADT
+-FIFO - First in First out
+-One entry point & One Exit point - Front and Rear
+-Insert - enqueue (Rear++)
+-Remove - dequeue (Front++)
+-Flat array vs Circular array implementation
+-QueueDemo program
+
+
+--------------------Tree Data Structure
+-An ADT
+-Binary Tree
+-Strict Binary Tree
+-Full Binary Tree
+-Complete Binary Tree
+-Height and Depth of the Tree
+-Binary Search Tree
+-Inorder, Preorder, Postorder traversals or Tree
+-TreeDemo program
