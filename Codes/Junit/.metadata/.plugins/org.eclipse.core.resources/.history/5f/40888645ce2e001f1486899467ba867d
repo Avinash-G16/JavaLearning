@@ -1,0 +1,7 @@
+package com.avinash;
+
+import jakarta.serlvet.http.HttpServlet;
+
+public class SquareServlet extends HttpServlet {
+
+}

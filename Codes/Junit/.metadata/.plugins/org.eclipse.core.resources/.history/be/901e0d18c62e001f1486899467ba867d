@@ -1,0 +1,6 @@
+package com.avinash;
+
+public class AddServlet extends HttpServlet
+{
+	
+}

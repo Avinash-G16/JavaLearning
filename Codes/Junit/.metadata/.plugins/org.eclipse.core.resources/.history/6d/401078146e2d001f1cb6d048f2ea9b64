@@ -1,0 +1,16 @@
+package com.avinash;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestPurchaseCourse {
+
+	@Test
+	void testProceedWithCourse() {
+		PurchaseCourse pc = new PurchaseCourse();
+		
+//		fail("Not yet implemented");
+	}
+
+}

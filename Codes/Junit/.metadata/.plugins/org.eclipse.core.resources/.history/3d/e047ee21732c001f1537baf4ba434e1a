@@ -1,0 +1,20 @@
+package com.avinash;
+
+public class JDBCDao {
+
+	public static void main(String[] args) 
+	{
+		Student2 s1 = getStudent(12);
+		System.out.println(s1.sname);
+	}
+}
+
+class StudentDao
+{
+	public Student2 getStudent(int rollno)
+	{
+		Student2 s = new Student2();
+		s.rollno = rollno;
+		return s;
+	}
+}

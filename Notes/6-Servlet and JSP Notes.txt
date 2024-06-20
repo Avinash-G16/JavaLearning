@@ -61,9 +61,14 @@
 --------------------HttpSession | Cookie
 -To maintain a session/data throughout the session, done by tomcat server here
 -Session vs cookies
+-ServletDemo Project
 
 
 --------------------ServletConfig & ServletContext
+-Both are interfaces
+-ServletDemo Project - MyServlet file
+-Servlet context data can be shared by all the Servlets
+-For different Configuration for different servlets - use ServletConfig
 
 
 --------------------Servlet Annotation Configuration

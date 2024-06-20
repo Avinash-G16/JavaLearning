@@ -1,0 +1,21 @@
+package com.learning;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestException {
+
+	@Test
+	void testSortingArrayException() {
+		SortingArray sa = new SortingArray();
+		int unsorted[] = {2,1,4};
+		int[] arr = sa.sortingArrays(unsorted);
+		for(int n: arr)
+		{
+			System.out.println(n);
+		}
+		//fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.learning.avinash;
+
+public class Shapes {
+	public double computeSquareArea(double side)
+	{
+		double res = side*side;
+		return res;
+	}
+}

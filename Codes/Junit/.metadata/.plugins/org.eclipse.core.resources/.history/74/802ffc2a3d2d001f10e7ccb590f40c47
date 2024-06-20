@@ -1,0 +1,16 @@
+package com.learning.avinash;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ReverseTest {
+
+	@Test
+	void test() {
+		Reverse r = new Reverse();
+		r.reverse("Java");
+		//fail("Not yet implemented");
+	}
+
+}

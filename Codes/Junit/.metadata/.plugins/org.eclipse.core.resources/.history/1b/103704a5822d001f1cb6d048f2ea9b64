@@ -1,0 +1,17 @@
+package com.learning;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestArrays {
+
+	@Test
+	void test() {
+		int[] expected = {2,4,6,8};
+		int[] actual = {4,6,8,2};
+		assertArrayEquals(expected, actual);
+		//fail("Not yet implemented");
+	}
+
+}

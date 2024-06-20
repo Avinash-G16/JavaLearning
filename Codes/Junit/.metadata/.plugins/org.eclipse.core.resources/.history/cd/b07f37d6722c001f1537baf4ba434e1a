@@ -1,0 +1,9 @@
+package com.avinash;
+
+public class JDBCDao {
+
+	public static void main(String[] args) 
+	{
+		Student s1 = getName(12);
+	}
+}

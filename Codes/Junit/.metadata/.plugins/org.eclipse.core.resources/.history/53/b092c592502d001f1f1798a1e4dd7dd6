@@ -1,0 +1,16 @@
+package com.learning.avinash;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ShapesTest {
+
+	@Test
+	void testComputeSquareArea() {
+		Shapes sh = new Shapes();
+		assertEquals(576, sh.computeSquareArea(24));
+		//fail("Not yet implemented");
+	}
+
+}

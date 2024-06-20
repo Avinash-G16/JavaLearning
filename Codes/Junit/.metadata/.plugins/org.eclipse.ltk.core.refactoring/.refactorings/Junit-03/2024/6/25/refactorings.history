@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.learning.avinash&apos; to &apos;Junit-04/src&apos;&#x0D;&#x0A;- Original project: &apos;Junit-03&apos;&#x0D;&#x0A;- Destination element: &apos;Junit-04/src&apos;&#x0D;&#x0A;- Original element: &apos;Junit-03/src/com.learning.avinash&apos;" description="Copy package" destination="=Junit-04/src" element1="/src&lt;com.learning.avinash" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1718693671438" version="1.0"/>
+</session>

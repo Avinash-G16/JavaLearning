@@ -1,0 +1,11 @@
+package com.avinash;
+
+import jakarta.servlet.http.HttpServlet;
+
+public class MyServlet extends HttpServlet
+{
+	protected void doGet(HttpServletRequest req, HttpServletResponse req)
+	{
+		
+	}
+}

@@ -1,0 +1,23 @@
+package com.learning.avinash;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ReverseTest {
+
+	@Test
+	void testReverseStringOneWord() 
+	{
+		Reverse r = new Reverse();
+		assertEquals("matuaG", r.reverse("Gautam"));
+		//fail("Not yet implemented");
+	}
+	
+	@Test
+	void testReverseStringMultipleWords()
+	{
+		
+	}
+
+}

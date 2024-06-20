@@ -1,0 +1,15 @@
+package com.learning;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestException {
+
+	@Test
+	void testSortingArrayException() {
+		SortingArray array = new SortingArray();
+		//fail("Not yet implemented");
+	}
+
+}

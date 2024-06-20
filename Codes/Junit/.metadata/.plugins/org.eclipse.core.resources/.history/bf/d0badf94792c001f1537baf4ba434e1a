@@ -1,0 +1,31 @@
+package com.avinash;
+
+public class JDBCDao {
+
+	public static void main(String[] args) 
+	{
+		StudentDao dao = new StudentDao();
+		Student2 s1 = dao.getStudent(12);
+		System.out.println(s1.sname);
+	}
+}
+
+class StudentDao
+{
+	public Student2 getStudent(int rollno)
+	{
+		try {
+			Student2 s = new Student2();
+			s.rollno = rollno;
+			Class.forName("com.mysql.jdbc.Driver");
+		}
+		
+		return s;
+	}
+}
+
+class Student2
+{
+	int rollno;
+	String sname;
+}

@@ -1,0 +1,40 @@
+package com.avinash;
+import java.sql.*;
+
+public class JDBCDao {
+
+	public static void main(String[] args) 
+	{
+		StudentDao dao = new StudentDao();
+		Student2 s1 = dao.getStudent(12);
+		System.out.println(s1.sname);
+	}
+}
+
+class StudentDao
+{
+	public Student2 getStudent(int rollno)
+	{
+		try {
+			String query = "select sname from student2 where rollno="+rollno;
+			Student2 s = new Student2();
+			s.rollno = rollno;
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/aliens","root","1999");
+			Statement st = con.createStatement();
+			ResultSet rs = st.executeQuery(query);
+			rs.next();
+			return s;
+		}
+		catch(Exception ex){
+			System.out.println(ex);
+			return null;
+		}
+	}
+}
+
+class Student2
+{
+	int rollno;
+	String sname;
+}

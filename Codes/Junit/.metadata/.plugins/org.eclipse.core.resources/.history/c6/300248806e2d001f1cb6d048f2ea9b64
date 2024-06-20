@@ -1,0 +1,17 @@
+package com.avinash;
+import com.avinash.service.PurchaseCourse;
+import com.learning.dao.JavaCourse;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestPurchaseCourse {
+
+	@Test
+	void testProceedWithCourse() {
+		PurchaseCourse pc = new PurchaseCourse();
+		pc.proceedWithCourse(new JavaCourse());
+//		fail("Not yet implemented");
+	}
+}

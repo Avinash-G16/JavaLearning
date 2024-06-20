@@ -1,0 +1,24 @@
+package com.avinash;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class MyServlet extends HttpServlet
+{
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException
+	{
+		PrintWriter out = res.getWriter();
+		
+		out.print("Hello <br>");
+		
+		ServletContext ctx = getServletContext();
+		String str = ctx.getInitParameter("Name");
+		out.println(str);
+		
+	}
+}

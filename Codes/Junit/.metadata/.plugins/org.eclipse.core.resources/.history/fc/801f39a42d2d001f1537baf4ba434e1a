@@ -1,0 +1,11 @@
+package com.avinash;
+
+import static org.junit.Assert.*;
+
+public class JunitlearningTest
+{
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+}
