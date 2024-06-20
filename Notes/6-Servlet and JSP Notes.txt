@@ -25,8 +25,8 @@
 -action attribute in html
 -query string
 -service method
--HttpServlet class and package in which it is defined - jakarta.servlet.http.HttpServlet
--HttpServletRequest & HttpServletResponse classes
+-HttpServlet and package in which it is defined - jakarta.servlet.http.HttpServlet
+-HttpServletRequest & HttpServletResponse interfaces
 -AddServlet.java, web.xml and Index.html in ServletDemo Project
 
 
@@ -41,19 +41,26 @@
 -AddServlet.java, SquareServlet.java, web.xml and Index.html in ServletDemo Project
 -To call a servlet from servlet we have these options - 'RequestDispatcher' and 'Redirect'
 -Session Management concept
+-getParameter method
 
 
 --------------------HttpServletRequest & HttpServletResponse
-
+-Servlet lifecycle - init, service and destroy
+-ServletDemo Project
 
 
 --------------------RequestDispatcher & sendRedirect Theory
+-sendRedirect method
+-ServletDemo Project
 
 
 --------------------SendRedirect | URL Rewriting
+-ServletDemo Project
 
 
 --------------------HttpSession | Cookie
+-To maintain a session/data throughout the session, done by tomcat server here
+-Session vs cookies
 
 
 --------------------ServletConfig & ServletContext
