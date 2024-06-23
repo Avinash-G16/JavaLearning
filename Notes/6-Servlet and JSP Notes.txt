@@ -94,15 +94,15 @@
 
 
 --------------------JSP to Servlet Conversion | Netbeans
--ToDoJsp Project
-
+-mavenproject1 Project
 
 
 --------------------JSP Tags | Scriptlet | Declaration | Directive | Expression
--ToDoJsp Project
+-mavenproject1 Project
 
 
 --------------------JSP Directive | Page | Include | Taglib
+-Import is the only tag which can be used multiple times in directives
 -@page (importing package, langauge info etc.), @include (to include other jsp page into the current page), @taglib (to use external tags, i.e. from spring framework)
 - <%@ page attribute="value" attribute="value" ...%>
     e.g.
@@ -127,7 +127,7 @@
 -Builtin Object (can be used in Scriptlet and Expression)
 -Request (HttpServletRequest)
 -Response (HttpServletResponse)
--PageContext (PageContext)
+-PageContext (PageContext) --- refers to the page --- Scope is same page
 -Out (JspWriter) ~ PrintWriter Object
 -Session (HttpSession)
 -Application (ServletContext)
@@ -135,6 +135,7 @@
 
 
 --------------------Exception Handling in JSP
+
 
 
 --------------------JDBC in JSP
