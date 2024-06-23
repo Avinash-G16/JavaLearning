@@ -1,5 +1,5 @@
 package com.avinash;
-import java.sql.*;
+// import java.sql.*;
 /*
  * 1. import
  * 2. load and register the driver

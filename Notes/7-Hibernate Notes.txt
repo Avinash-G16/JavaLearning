@@ -1,8 +1,29 @@
 --------------------Introduction
+-ORM Framework - Object Relational Mapping
+-Connectors
+
+
 --------------------Prerequisites for Hibernate
+-Core java
+-SQL Concepts
+-JDBC
+
+
 --------------------Hibernate Theory
+-Java (Variable, Objects) (Tmeporary storage)
+-Hibernate----> Persistence of data (Storing the data into db)
+-To connect Java app with DB - JDBC
+-Hibernate is one of the tool to Implement ORM concept (some other tools - iBatis, JPA(Standard), TopLink)
+
+
 --------------------Practical
+-DemoHibernate Project
+-mysql and hibernate maven dependencies
+
+
 --------------------How to add Hibernate Plugin in Eclipse
+
+
 --------------------Configuration File
 --------------------Working
 --------------------Show SQL Property

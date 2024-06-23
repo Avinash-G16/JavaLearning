@@ -72,12 +72,20 @@
 
 
 --------------------Servlet Annotation Configuration
+-ServletDemo Project
+-@WebServlet Annotation
 
 
 --------------------Why JSP ?
+-Java code in the html
+-Java Server Pages
+-implicit object in JSP
+-Delimeters
 
 
 --------------------How JSP Translated into Servlets ?
+-Servlet can not run jsp
+-JSP gets converted into servlet which is run by server
 
 
 --------------------JSP to Servlet Conversion | Netbeans
