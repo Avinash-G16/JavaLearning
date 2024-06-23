@@ -86,18 +86,52 @@
 --------------------How JSP Translated into Servlets ?
 -Servlet can not run jsp
 -JSP gets converted into servlet which is run by server
+-Demo.jsp ---> DemoJsp Servlet (internal Conversion)
+<% ...java code here... %> is called  - Scriptlet tag
+<%! ...java variables declarations... %> is called - Declaration tag
+<%@ page import = "" %> is called Directive tag
+<%= ...variable name... %> is called Expression tag (to print something)
 
 
 --------------------JSP to Servlet Conversion | Netbeans
+-ToDoJsp Project
+
 
 
 --------------------JSP Tags | Scriptlet | Declaration | Directive | Expression
+-ToDoJsp Project
 
 
 --------------------JSP Directive | Page | Include | Taglib
+-@page (importing package, langauge info etc.), @include (to include other jsp page into the current page), @taglib (to use external tags, i.e. from spring framework)
+- <%@ page attribute="value" attribute="value" ...%>
+    e.g.
+        language="scripting langauge"
+        extends="className"
+        import="importList"
+        session="true|false"
+        autoFlush="true|false"
+        contentType="ctInfo"
+        errorPage="error_url"
+        isErrorPage="true|false"
+        info="information"
+        isELIgnored="true|false"
+        isThreadSafe="true|false"
+- <%@ include file="filename"%>
+- <%@taglib uri = "uri" prefix="fx" %>
+    <fx:avinash> custom tag mentioned in imported tag library
+    <fx:h1> custome h1 tag
 
 
 --------------------Implicit Object in JSP
+-Builtin Object (can be used in Scriptlet and Expression)
+-Request (HttpServletRequest)
+-Response (HttpServletResponse)
+-PageContext (PageContext)
+-Out (JspWriter) ~ PrintWriter Object
+-Session (HttpSession)
+-Application (ServletContext)
+-Config (ServletConfig)
 
 
 --------------------Exception Handling in JSP
