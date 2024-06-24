@@ -1,5 +1,13 @@
 --------------------Spring ORM theory
+
+
 --------------------Spring Hibernate Config
+
+
 --------------------Mysql and Dao
+
+
 --------------------Dao creation
+
+
 --------------------Add and Fetch

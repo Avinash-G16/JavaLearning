@@ -1,12 +1,52 @@
 --------------------Introduction to Spring
+-Spring is a framework
+-POJO - Plain Old Java Object
+-Spring is basically a collection of multiple modules - REST(Spring Rests), Dependency Injection(Spring Core)
+, JPA, Web(Spring MVC), Security-Spring suit
+-JDK
+
+
+--------------------Spring Documentation
+
+
+--------------------Prerequisites
+-Core Java, DB Connectivity, Servlet, JSP, Maven, ORM Framework, LDAP, OAuth
+-Tomcat is a servlet container meaning if we are using tomcat server, everything will be converted to servlets
+
+
+--------------------Software Requirements
+-Spring suit
+-JDK
+----------------------------------------------------01:12:35:30
+
 --------------------What is Dependency Injection ?
+
+
 --------------------Introduction to Maven
+
+
 --------------------Maven Practical
+
+
 --------------------ApplicationContext
+
+
 --------------------Spring.xml
+
+
 --------------------Annotation Based Configuration
+
+
 --------------------Bean Property
+
+
 --------------------Constructor Injection
+
+
 --------------------Autowired Annotation
+
+
 --------------------Configuration | Bean
+
+
 --------------------Annotation Component AutoWired Primary Qualifier

@@ -1,20 +1,63 @@
 --------------------What is REST API? | Web Service
+-API - Application Programming Interface
+-Rest Api - returns the state(representational state) of the object to client side in structured format - e.g. - JSON or XML
+-CRUD - Create, Read, Update, Delete (POST, GET, PUT, DELETE httml methods)
+-Implementation techniques of restful api - Jersey, Spring Implementation etc.
+
+
 --------------------Restful Web Services  | Introduction
+--------------------------------------------------------------1:10:00:50
+
+
 --------------------Creating a Jersey Project in Eclipse
+
+
 --------------------Running our First Rest Jersey Application
+
+
 --------------------How to create a Resource Class
+
+
 --------------------List as Resource
+
+
 --------------------Mock Repository
+
+
 --------------------Creating a Resource
+
+
 --------------------How to install Postman
+
+
 --------------------Send a Post Request
+
+
 --------------------PathParam
+
+
 --------------------Working with JSON
+
+
 --------------------Mysql Repository part 1
+
+
 --------------------Mysql Repository part 2
+
+
 --------------------Consumes JSON and XML
+
+
 --------------------Update Resource using PUT method
+
+
 --------------------Delete Resource
+
+
 --------------------RESTful Web Services | Recap
+
+
 --------------------Spring Rest | Spring Boot Example
+
+
 --------------------Spring JPA | REST
