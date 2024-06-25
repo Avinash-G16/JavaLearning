@@ -132,23 +132,33 @@
 -Session (HttpSession)
 -Application (ServletContext)
 -Config (ServletConfig)
+-JSPDemo Project
 
 
 --------------------Exception Handling in JSP
-
+-exception object can be used with isErrorPage attribute only
 
 
 --------------------JDBC in JSP
+-JSPLearning
 
 
 --------------------MVC Using Servlet & JSP
+-MVC - Model, View & Controller
+-We should not write business logic in JSP
+-So use servlets for business logic, JSP for View (e.g. - layout)
+-Client -> Request to -> Controller(servlet)(calls a service(uses/take helps of DAO) method for business logic operations) -> Returns a View(JSP) (View uses Model(PoJo - plain old java object) and replaces variables) to client
+-N-Tier Architecture
 
 
 --------------------JSTL Tutorial Part 1 EL
+-JSTL - Java Server Pages Standard Tag library
+-JSTLDemo Project
 
 
 --------------------JSTL Tutorial Part 2 Core Tags
-
+-JSTLDemo Project
+    
 
 --------------------JSTL Tutorial SQL Tags Part 1
 
