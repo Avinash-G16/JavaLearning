@@ -153,12 +153,13 @@
 
 --------------------JSTL Tutorial Part 1 EL
 -JSTL - Java Server Pages Standard Tag library
--JSTLDemo Project
+-LearningJSTL Project
+-EL - Expression langauge --- ${label}
 
 
 --------------------JSTL Tutorial Part 2 Core Tags
--JSTLDemo Project
-    
+-LearningJSTL Project
+-To use the objects inside JSP page, we need to use Beans, for that we use getters and setters
 
 --------------------JSTL Tutorial SQL Tags Part 1
 
