@@ -1,0 +1,13 @@
+package com.avinash;
+
+public class Student 
+{
+	int rollno;
+	String Name;
+	public Student(int rollno, String name) {
+		super();
+		this.rollno = rollno;
+		Name = name;
+	}
+
+}
