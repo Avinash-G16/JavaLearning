@@ -1,0 +1,6 @@
+package com.avinash;
+
+public class DemoServlet extends HttpServlet 
+{
+
+}

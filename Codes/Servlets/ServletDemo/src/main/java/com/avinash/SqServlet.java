@@ -3,12 +3,14 @@ package com.avinash;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
+@WebServlet("/sq")
 public class SqServlet extends HttpServlet
 {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException
@@ -35,7 +37,9 @@ public class SqServlet extends HttpServlet
 		
 		k *= k;
 		PrintWriter	out = res.getWriter();
+		out.println("<html><body bgcolor='cyan'>");
 		out.println("Result is : "+k);
+		out.print("</body></html>");
 		
 		System.out.println("sq is called");
 	}

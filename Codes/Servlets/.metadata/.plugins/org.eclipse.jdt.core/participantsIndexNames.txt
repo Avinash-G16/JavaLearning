@@ -1,0 +1,19 @@
+INDEX VERSION 1.134
+C:\Users\AGL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2566586347.index
+\JSTLDemo\src\main\java
+C:\Users\AGL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3827737173.index
+\JSPLearning\src\main\java
+C:\Users\AGL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\10831556.index
+\JSTLDem\src\main\java
+C:\Users\AGL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2921290909.index
+\JSPDemo\src\main\java
+C:\Users\AGL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2933462536.index
+\LearnJSTL\src\main\java
+C:\Users\AGL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3889799755.index
+\ServletFilterDemo\src\main\java
+C:\Users\AGL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2621824603.index
+\JSTLDemo\src\main\java
+C:\Users\AGL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\908502622.index
+\ServletDemo\src\main\java
+C:\Users\AGL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\969425037.index
+\JSTLDemo\src\main\java

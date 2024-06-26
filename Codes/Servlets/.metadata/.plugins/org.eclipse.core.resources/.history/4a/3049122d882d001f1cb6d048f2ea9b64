@@ -1,0 +1,50 @@
+package com.learning;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class JunitTrial {
+
+	@BeforeAll
+	static void beforeAll()
+	{
+		
+	}
+	
+	Shapes shape;
+	@BeforeEach 
+	void init()
+	{
+		shape = new Shapes();
+		System.out.println("Before test");
+	}
+	@AfterEach 
+	void destroy()
+	{
+		shape = new Shapes();
+		System.out.println("Before test");
+	}
+	@AfterAll
+	void afterAll()
+	{
+		shape = new Shapes();
+		System.out.println("Before test");
+	}
+	@Test
+	void test() {
+		
+		assertEquals(6,6);
+		//fail("Not yet implemented");
+	}
+	
+	@Test
+	void testComputeSquareArea()
+	{
+		assertEquals(576, shape.computeSquareArea(24));
+	}
+}

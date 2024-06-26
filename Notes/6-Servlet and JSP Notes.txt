@@ -161,19 +161,32 @@
 -LearningJSTL Project
 -To use the objects inside JSP page, we need to use Beans, for that we use getters and setters
 
+
 --------------------JSTL Tutorial SQL Tags Part 1
+-LearningJSTL Project
 
 
 --------------------JSTL Tutorial SQL Tags Part 2
+-LearningJSTL Project
 
 
 --------------------JSTL Tutorial Function Tags
+-LearningJSTL Project
 
 
 --------------------Servlet Filter Tutorial Theory
+-Servlet 3 filters
+    1. F1 - for logging purpose
+    2. F2 - for transactions purpose
+    3. F3 - for Security purpose
+-Filter Chaining
+-Web.xml handles which filter to go with
+-init, doFilter, destroy methods
+-FilterConfig - for configuration of filter
 
 
 --------------------Servlet Filter Practical
+-ServletFilterDemo
 
 
 --------------------Login Using Servlet & JSP

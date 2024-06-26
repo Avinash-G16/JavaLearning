@@ -1,0 +1,29 @@
+package com.learning.avinash;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ShapesTest {
+
+	@Test
+	void testComputeSquareArea() {
+		Shapes sh = new Shapes();
+		assertEquals(576, sh.computeSquareArea(24));
+		//fail("Not yet implemented");
+	}
+	
+	@Test
+	void testComputeCircleArea()
+	{
+		Shapes sh = new Shapes();
+		assertEquals(78.5,sh.computeCircleArea(5),"Area of circle calculation is wrong");
+	}
+	
+	@Test
+	void testComputeCircleArea_Supplier()
+	{
+		
+	}
+
+}

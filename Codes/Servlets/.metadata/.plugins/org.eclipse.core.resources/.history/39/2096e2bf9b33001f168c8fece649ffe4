@@ -1,0 +1,10 @@
+package com.avinash;
+
+@WebServlet("/addAlien")
+public class MyServlet 
+{
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
+	{
+		
+	}
+}
