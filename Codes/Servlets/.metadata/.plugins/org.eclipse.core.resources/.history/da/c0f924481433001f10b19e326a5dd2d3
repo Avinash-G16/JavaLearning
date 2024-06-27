@@ -1,0 +1,9 @@
+package com.avinash;
+
+public class DemoServlet extends HttpServlet 
+{
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException
+	{
+		
+	}
+}
