@@ -190,6 +190,8 @@
 
 
 --------------------Login Using Servlet & JSP
+-Uses HttpSession for login task
+-LoginServlet Project
 
 
 --------------------How to Prevent Back Button after Logout Part 1
