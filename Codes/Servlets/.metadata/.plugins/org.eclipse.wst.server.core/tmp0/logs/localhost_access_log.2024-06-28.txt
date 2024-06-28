@@ -1,0 +1,16 @@
+127.0.0.1 - - [28/Jun/2024:10:45:00 +0530] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [28/Jun/2024:12:10:35 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:12:10:39 +0530] "GET /ServletRevise/index.jsp HTTP/1.1" 200 147
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:12:10:39 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:12:10:43 +0530] "GET /ServletRevise/getAlien?aid=12 HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:12:15:05 +0530] "GET /ServletRevise/index.jsp HTTP/1.1" 200 147
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:12:15:08 +0530] "GET /ServletRevise/getAlien?aid=12 HTTP/1.1" 200 258
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:12:22:10 +0530] "GET /ServletRevise/index.jsp HTTP/1.1" 200 147
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:12:22:14 +0530] "GET /ServletRevise/getAlien?aid=1 HTTP/1.1" 200 254
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:12:22:19 +0530] "GET /ServletRevise/getAlien?aid=3 HTTP/1.1" 200 250
+127.0.0.1 - - [28/Jun/2024:12:57:06 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:12:57:08 +0530] "GET /FileUpload/index.jsp HTTP/1.1" 200 155
+127.0.0.1 - - [28/Jun/2024:14:21:32 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:14:21:34 +0530] "GET /FileUpload/index.jsp HTTP/1.1" 200 194
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:14:21:48 +0530] "POST /FileUpload/upload HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:14:22:17 +0530] "POST /FileUpload/upload HTTP/1.1" 200 -
