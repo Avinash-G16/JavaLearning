@@ -1,8 +1,7 @@
 --------------------Introduction to Spring
 -Spring is a framework
 -POJO - Plain Old Java Object
--Spring is basically a collection of multiple modules - REST(Spring Rests), Dependency Injection(Spring Core)
-, JPA, Web(Spring MVC), Security-Spring suit
+-Spring is basically a collection of multiple modules - REST(Spring Rests), Dependency Injection(Spring Core), JPA, Web(Spring MVC), Security-Spring suit
 -JDK
 
 
@@ -20,6 +19,8 @@
 
 
 --------------------What is Dependency Injection ?
+-Maven is a build tool who helps in building project, adding dependencies, packages etc.
+-getBean method belobgs to an interface - ApplicationContext
 
 
 --------------------Introduction to Maven
