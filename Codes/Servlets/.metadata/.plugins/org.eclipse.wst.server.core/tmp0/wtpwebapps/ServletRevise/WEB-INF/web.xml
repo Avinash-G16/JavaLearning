@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>GetAlienController</display-name>
+    <servlet-name>GetAlienController</servlet-name>
+    <servlet-class>com.avinash.web.GetAlienController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAlienController</servlet-name>
+    <url-pattern>/getAlien</url-pattern>
+  </servlet-mapping>
+</web-app>

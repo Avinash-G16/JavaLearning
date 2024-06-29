@@ -17,36 +17,54 @@
 
 
 --------------------Practical
--DemoHibernate Project
+-HibernateDemo
 -mysql and hibernate maven dependencies
+-SessionFactory
 
 
 --------------------How to add Hibernate Plugin in Eclipse
--------------------------------------------------------------------01:06:56:30
+-JBoss downloading from Eclipse marketplace
 
 
 --------------------Configuration File
+-Hibernate.cfg.xml File
+-update property in xml File
 
 
 --------------------Working
+-HibernateDemo Project
 
 
 --------------------Show SQL Property
+-show_sql property in xml File
 
 
 --------------------Annotation 
+-@Entity(name="table_name")
+-@Id
+-@Table
+-@Column(name="column_name")
+-@Transient - it will not be stored into db, it is for Tmeporary data 
 
 
 --------------------Fetching Data Using Hibernate 
+-Session.get() method
 
 
 --------------------How to use Embeddable Object 
+@Embeddable
 
 
 --------------------Mapping Relations Theory
+@OneToOne
+@OneToMany<->
+@ManyToOne<->
+@ManyToMany
+@OneToMany(MappedBy"")
 
 
 --------------------Mapping Relations Practical
+-HibernateDemo Project
 
 
 --------------------Fetch EAGER LAZY
