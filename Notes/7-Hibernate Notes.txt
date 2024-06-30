@@ -10,7 +10,7 @@
 
 
 --------------------Hibernate Theory
--Java (Variable, Objects) (Tmeporary storage)
+-Java (Variable, Objects) (Temporary storage)
 -Hibernate----> Persistence of data (Storing the data into db)
 -To connect Java app with DB - JDBC
 -Hibernate is one of the tool to Implement ORM concept (some other tools - iBatis, JPA(Standard), TopLink)
@@ -43,6 +43,7 @@
 -@Entity(name="table_name")
 -@Id
 -@Table
+-Difference between @Entity and @Table
 -@Column(name="column_name")
 -@Transient - it will not be stored into db, it is for Tmeporary data 
 
@@ -52,15 +53,16 @@
 
 
 --------------------How to use Embeddable Object 
-@Embeddable
+-@Embeddable
 
 
 --------------------Mapping Relations Theory
-@OneToOne
-@OneToMany<->
-@ManyToOne<->
-@ManyToMany
-@OneToMany(MappedBy"")
+-@OneToOne
+-@OneToMany<->
+-@ManyToOne<->
+-@ManyToMany
+-@OneToMany
+-(MappedBy"") property
 
 
 --------------------Mapping Relations Practical
