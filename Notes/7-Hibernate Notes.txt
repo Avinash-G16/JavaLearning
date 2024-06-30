@@ -70,16 +70,21 @@
 
 
 --------------------Fetch EAGER LAZY
+-HibernateDemo Project
+-By default fetch type is LAZY
 
 
 --------------------Hibernate Caching 
+-Instead of hitting the db again and again for the same data fetching/access in same session(First level cache)(It is given by hibernate by default) , 2 different sessions (Second level cache)(we need to configure this by using third party library - ehcache (most prefered)/os/swarm), store that data into hibernate cache for fast access
+-For configuration - ehcache jar file (pom.xml), hibernate-cache jar file(pom.xml), hibernate.cfg.xml file, two annotations for entity - @cachable (to make entity cachable), @cache (for caching stratagies)
 
 
 --------------------Caching Level 1
+-HibernateDemo Project
 
 
 --------------------Caching Level 2
-
+-HibernateDemo Project
 
 --------------------Caching Level 2 with Query
 
