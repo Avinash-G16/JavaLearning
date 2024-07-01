@@ -3,61 +3,84 @@
 -Rest Api - returns the state(representational state) of the object to client side in structured format - e.g. - JSON or XML
 -CRUD - Create, Read, Update, Delete (POST, GET, PUT, DELETE httml methods)
 -Implementation techniques of restful api - Jersey, Spring Implementation etc.
+-API connects client to server
 
 
 --------------------Restful Web Services  | Introduction
---------------------------------------------------------------1:10:00:50
 
 
 --------------------Creating a Jersey Project in Eclipse
+-RestDemo Project
 
 
 --------------------Running our First Rest Jersey Application
+-RestDemo Project
 
 
 --------------------How to create a Resource Class
+-RestDemo Project
+-XmlRootElement dependency, @Produces annotation
 
 
 --------------------List as Resource
+-RestDemo Project
 
 
 --------------------Mock Repository
+-RestDemo Project
 
 
 --------------------Creating a Resource
+-RestDemo Project
 
 
 --------------------How to install Postman
 
 
 --------------------Send a Post Request
+-RestDemo Project
+-Post request in postman by passing an object
 
 
 --------------------PathParam
+-RestDemo Project
+@PathParam annotation
 
 
 --------------------Working with JSON
+-JSON dependency in pom.xml
+-Multiple mediatypes in @Produces
 
 
---------------------Mysql Repository part 1
-
-
---------------------Mysql Repository part 2
+--------------------Mysql Repository
+-Using JDBC
+-MySql Connector/J
+-RestDemo Project
 
 
 --------------------Consumes JSON and XML
+@Consumes annotation
 
 
 --------------------Update Resource using PUT method
+-PUT method and update function
 
 
 --------------------Delete Resource
+-DELETE method and delete function
 
 
 --------------------RESTful Web Services | Recap
+-Revise
 
 
---------------------Spring Rest | Spring Boot Example
-
-
---------------------Spring JPA | REST
+--------------------Spring Rest | Spring Boot Example | Spring JPA
+-@RestController annotation
+-@RequestMapping annotation
+-@GetMapping
+-@PostMapping
+-@PutMapping
+-@DeleteMapping
+-Spring boot JPA maven dependency
+-@AutoWired annotation
+-findAll() method in JPA
