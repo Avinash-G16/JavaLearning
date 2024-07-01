@@ -85,29 +85,84 @@
 
 --------------------Caching Level 2
 -HibernateDemo Project
+-ehcache and hibernate ehcache dependencies, update hibernate.cfg.xml
+
 
 --------------------Caching Level 2 with Query
+-HibernateDemo Project
 
 
 --------------------Hibernate Query Language Theory (HQL)
+-HQL returns list of results
 
 
 --------------------Hibernate Query Language (HQL) part 1
+-Query q = session.createQuery("from Student");
+ List<Student> students = q.list(); //for full table (all rows)
+ for(Student s : students)
+ {
+    System.out.println(s);
+ }
+-Query q = session.createQuery("from Student where marks > 50");
+-Query q = session.createQuery("from Student where rollno = 6");
+ Student stud = (Student)q.uniqueResult();
 
 
 --------------------Hibernate Query Language (HQL) part 2
+-Query q = session.createQuery("select rollno, name, marks from Student where rollno = 6");
+ Object[] student = (Object[])q.uniqueResult();//for 1 row
+ for(Object o : student)
+ {
+    System.out.println(o);
+ }
+ or
+ System.out.println(student[0] + " " + student[1] + " " + student[2]);
+-int b = 60;
+ Query q = session.createQuery("select sum(marks) from Student s where s.marks > : b");
+ q.setParameter("b", b); //positional parameter
 
 
 --------------------Hibernate Query Language (HQL) part 3
+-SQL in hibernate
+-Native queries
+-SQLQuery query = session.createSQLQuery("select * from student where marks > 60");
+ query.addEntity(Student.class);
+ List<Student> students = query.list();
+ for(Student s : student)
+ {
+    System.out.println(s);
+ }
+-SQLQuery query = session.createSQLQuery("Select name, marks from student where marks > 60");
+ query.setResultTransformer(Criteria.ALIAS_TO_ENTITY_MAP);
+ List student = query.list();
+ for(Object o : student)
+ {
+    Map m = (Map)o;
+    System.out.println(m.get("name")+ " "+ m.get("marks"));
+ }
 
 
 --------------------Hibernate Object States Persistence Life Cycle
+-Transient state
+-Persistent state
+-Detached state
+-Removed state
 
 
 --------------------Hibernate Object States  (Practical)
+-.save() or .persist() -> Persistent state
+-.detach() or .evict() -> Detached state
+-.delete() or .remove() -> Removed state
 
 
 --------------------Hibernate Get vs Load
+-.get() hits the database while .load() does not, when we use object with this, it will hit the database
+-.load() gives the proxy object
+-.get() gives nullpointerexception while .load() gives objectnotfoundexception
+-to use fake/proxy object use - .load()
 
 
 --------------------What is JPA? & JPA Implementation
+-JPA - Java Persistence Api
+-Common standard/specification for ORM frameworks which is implemented by hibernate/ibatis like ORM frameworks
+
