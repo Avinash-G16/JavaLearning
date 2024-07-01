@@ -165,4 +165,4 @@
 --------------------What is JPA? & JPA Implementation
 -JPA - Java Persistence Api
 -Common standard/specification for ORM frameworks which is implemented by hibernate/ibatis like ORM frameworks
-
+-find(classname, id); method
