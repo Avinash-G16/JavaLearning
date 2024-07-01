@@ -1,0 +1,11 @@
+package com.avinash.HibernateDemo;
+
+import jakarta.persistence.*;
+
+@Entity
+public class Laptop 
+{
+	@Id
+	private int lid;
+	private String lname;
+}

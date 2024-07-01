@@ -1,0 +1,5 @@
+package com.avinash.JpaDemo;
+
+public class Alien {
+
+}

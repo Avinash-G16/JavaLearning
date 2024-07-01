@@ -1,0 +1,69 @@
+package com.avinash.HibernateDemo;
+
+import org.hibernate.Session;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Laptop laptop = new Laptop();
+    	laptop.setLid(101);
+    	laptop.setLname("Dell");
+    	
+    	Student s = new Student();
+    	s.setMarks(50);
+    	s.setName("avinash");
+    	s.setRollno(1);
+    	
+    	Configuration config = new Configuration().addAnnotatedClass(Student.class).addAnnotatedClass(Laptop.class);
+    	SessionFactory sf = config.buildSessionFactory();
+    }
+}
+
+
+
+
+
+/**
+ * Hello world!
+ *
+ */
+//public class App 
+//{
+//    public static void main( String[] args )
+//    {
+//    	Alien telusko = new Alien();
+////    	telusko.setAid(102);
+////    	telusko.setAname("Gautam");
+////    	telusko.setColor("Blue");
+//    	AlienName an = new AlienName();
+//    	an.setFname("avinash");
+//    	an.setLname("gautam");
+//    	an.setMname("kumar");
+//    	telusko.setAid(105);
+//    	telusko.setColor("white");
+//    	telusko.setAname(an);
+//    	
+//    	
+//    	Configuration con = new Configuration().configure().addAnnotatedClass(Alien.class);
+//    	
+//    	
+//    	//ServiceRegistry reg = new BootstrapServiceRegistryBuilder().applyClassLoader(null).build();
+//    	
+//    	SessionFactory sf = con.buildSessionFactory();
+//    	
+//    	Session session = sf.openSession();
+//    	
+//    	Transaction tx = session.beginTransaction();    
+//    	
+////    	telusko =(Alien)session.get(Alien.class, 101);
+//    	
+//    	session.persist(telusko);
+//    	tx.commit();
+//    	System.out.println(telusko);
+//    }
+//}

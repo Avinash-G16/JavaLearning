@@ -1,0 +1,5 @@
+package com.avinash.web.model;
+
+public class Alien {
+
+}

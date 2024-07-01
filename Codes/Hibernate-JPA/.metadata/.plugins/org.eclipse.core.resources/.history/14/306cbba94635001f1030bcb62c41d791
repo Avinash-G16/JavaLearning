@@ -1,0 +1,9 @@
+package com.avinash.HibernateDemo;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Laptop 
+{
+	
+}

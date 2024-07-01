@@ -1,0 +1,7 @@
+package com.avinash.HibernateDemo;
+
+@Entity
+public class Laptop 
+{
+	
+}

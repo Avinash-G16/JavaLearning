@@ -1,0 +1,10 @@
+package com.avinash.HibernateDemo;
+
+import jakarta.persistence.*;
+
+public class Student 
+{
+	private int rollno;
+	private String name;
+	private int marks;
+}
