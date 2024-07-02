@@ -5,9 +5,6 @@
 -JDK
 
 
---------------------Spring Documentation
-
-
 --------------------Prerequisites
 -Core Java, DB Connectivity, Servlet, JSP, Maven, ORM Framework, LDAP, OAuth
 -Tomcat is a servlet container meaning if we are using tomcat server, everything will be converted to servlets
@@ -19,35 +16,48 @@
 
 
 --------------------What is Dependency Injection ?
+-Inversion of Control ~ Dependency Injection
+-Here we talk about dependencies of objects not of libraries
 -Maven is a build tool who helps in building project, adding dependencies, packages etc.
--getBean method belobgs to an interface - ApplicationContext
-
-
---------------------Introduction to Maven
-
-
---------------------Maven Practical
+-getBean method belongs to an interface - ApplicationContext
+-DemoSpring project
+-FirstProj
+-For Spring Boot - "Convention over Configuration"
 
 
 --------------------ApplicationContext
+-SpringDemo project
+-Application context creates a spring container which has beans inside the JVM that means object of all classes without even we don't ask for it, beacuse we have specified spring.xml file inside the ApplicationContext interface, objects are created only once, that is why beans are called singleton
 
 
 --------------------Spring.xml
-
-
---------------------Annotation Based Configuration
+-SpringDemo project
 
 
 --------------------Bean Property
-
-
---------------------Constructor Injection
+-SpringDemo project
 
 
 --------------------Autowired Annotation
+-FirstProj project
+-Not required to initialize a object to use it
 
 
---------------------Configuration | Bean
+
+--------------------Singleton vs ProtoType
+-Singleton Design Pattern
+-In singleton spring container gives one object even if we don't ask for it, while in prototype we have to ask for it
+-SpringDemo project
 
 
---------------------Annotation Component AutoWired Primary Qualifier
+--------------------Setter Injection
+-spring.xml file
+-SpringDemo project
+
+
+--------------------Ref Attribute
+-SpringDemo project
+
+
+--------------------Constructor Injection
+-SpringDemo project
