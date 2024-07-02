@@ -1,6 +1,6 @@
 package com.avinash.SpringDemo;
 
-public class Laptop implements Computer
+public class Desktop implements Computer
 {
 	public void compile()
 	{
