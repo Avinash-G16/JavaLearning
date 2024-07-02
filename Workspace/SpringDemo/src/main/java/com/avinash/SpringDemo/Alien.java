@@ -8,7 +8,7 @@ public class Alien
 //	public Laptop getLaptop() {
 //		return laptop;
 //	}
-//	public Alien(int age) {
+//	public Alien(int age) {s
 //		this.age = age;
 //	}
 //	public void setLaptop(Laptop lap) {
@@ -16,6 +16,12 @@ public class Alien
 //	}
 	public int getAge() {
 		return age;
+	}
+	public Computer getCom() {
+		return com;
+	}
+	public void setCom(Computer com) {
+		this.com = com;
 	}
 	public void setAge(int age) {
 		System.out.println("Age is assigned");

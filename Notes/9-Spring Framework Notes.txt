@@ -41,7 +41,12 @@
 --------------------Autowired Annotation
 -FirstProj project
 -Not required to initialize a object to use it
+-byName
+-byType
 
+
+--------------------Primary
+-FirstProj project
 
 
 --------------------Singleton vs ProtoType

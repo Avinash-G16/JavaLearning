@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-	<bean id="alien" class="com.avinash.SpringDemo.Alien" scope="singleton">
+	<bean id="alien" class="com.avinash.SpringDemo.Alien" autowire="byName" scope="singleton">
+<!--	<bean id="alien" class="com.avinash.SpringDemo.Alien" autowire="byType" scope="singleton">-->
+
 		<property name="age" value="10"></property>
 <!--<constructor-arg value="12"></constructor-arg>-->
-		<property name="laptop" ref="laptop"></property>
+<!--		<property name="com" ref="laptop"></property>-->
 	</bean>
-	<bean id="laptop" class="com.avinash.SpringDemo.Laptop">
+	<bean id="com" class="com.avinash.SpringDemo.Laptop" primary="true"> <!-- for byName autowire-->
+	
+	</bean>
+	<bean id="desktop" class="com.avinash.SpringDemo.Desktop"><!-- for byType autowire-->
 	
 	</bean>
 </beans>

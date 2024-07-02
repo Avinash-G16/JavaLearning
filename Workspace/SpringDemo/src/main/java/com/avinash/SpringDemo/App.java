@@ -18,7 +18,7 @@ public class App
     	Alien obj = (Alien)factory.getBean(Alien.class);
     	obj.code();
     	System.out.println(obj.getAge());
-    	obj.getLaptop().compile();
+    	obj.code();
 //    	obj.age = 15;
 //    	System.out.println(obj.age);
         //System.out.println( "Hello World!" );
