@@ -13,4 +13,6 @@
 
 
 --------------------Practical
+-@Component Annoation
+-@Scope Prototype
 --------------------------------------------37.50.00
