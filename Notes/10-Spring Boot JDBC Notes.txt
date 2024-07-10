@@ -1,0 +1,11 @@
+-Data Source
+-Connection pooling
+-7 steps of JDBC
+ Load Driver
+ Define connection url
+ Establish connection
+ Create Statement object
+ Execute query using Statement
+ Process result
+ Close connection
+-JDBC Template
