@@ -9,9 +9,12 @@
     Execute query using Statement
     Process result
     Close Connection
--JDBC Template - To simplify JDBC Concept, Provided by Spring Boot Framework
+-JdbcTemplate - To simplify JDBC Concept, Provided by Spring Boot Framework
 
 
 --------------------Practical
 -@Component Annoation
 -@Scope Prototype
+-SpringJdbcDemo project
+-Controller, Service, Repository layers
+-RowMapper
