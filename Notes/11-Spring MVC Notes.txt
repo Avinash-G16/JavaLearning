@@ -4,7 +4,7 @@
 
 
 --------------------Creating the Controller
--SpringMvcDemo project
+-SpringMvc project
 -@Controller Annotation
 -@RequestMapping Annotation
 
@@ -14,3 +14,22 @@
 
 
 --------------------Accepting User Input
+-SpringMvc project
+
+
+--------------------Spring Mvc RequestParam
+-@RequestParam Annotation
+
+
+--------------------Spring Mvc Model and View
+-ModelAndView class
+
+
+--------------------Prefix and Suffix
+-application.properties file
+
+
+--------------------Model and ModelMap
+-SpringMvc project
+-Model interface
+--------------------------------------------------------01:15:00:00

@@ -1,5 +1,7 @@
 --------------------What is Spring Security?
-
+-Authentication
+-Authorization
+----------------------------------------------------01:21:28:00
 
 --------------------Spring Security Part 2
 

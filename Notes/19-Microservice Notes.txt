@@ -1,5 +1,8 @@
 --------------------What are microservices
-
+-Monolithic Application
+-Horizontal vs Vertical Scaling
+-API Gateway
+------------------------------------------------------------01:22:38:00
 
 --------------------Building Microservices Introduction
 
