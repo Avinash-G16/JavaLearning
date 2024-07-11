@@ -1,0 +1,12 @@
+package com.avinash.HibernateDemo;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Student 
+{
+	@Id
+	private int rollno;
+	private String name;
+}

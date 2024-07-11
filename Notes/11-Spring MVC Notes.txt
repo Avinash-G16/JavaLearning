@@ -1,25 +1,16 @@
 --------------------Introduction to Spring MVC
+-Model, View, Controller
+-Concept of FrontController (Dispatcher Servlet)
 
 
---------------------Spring MVC with Example (Hello World)
+--------------------Creating the Controller
+-SpringMvcDemo project
+-@Controller Annotation
+-@RequestMapping Annotation
 
 
---------------------Spring MVC with Example (DispatcherServlet)
+--------------------Tomcat Jasper
+-Maven dependency
 
 
---------------------Spring MVC with Example (RequestMapping)
-
-
---------------------Spring MVC with Example (ModelAndView)
-
-
---------------------Spring MVC Expression Language
-
-
---------------------Spring MVC Annotation Controller, Configuration, RequestMapping, ComponentScan
-
-
---------------------Spring MVC Annotation | RequestParam
-
-
---------------------Spring MVC Example using Java Based Configuration
+--------------------Accepting User Input
