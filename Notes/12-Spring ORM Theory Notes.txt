@@ -1,14 +1,17 @@
 --------------------Spring ORM theory
 -Spring boot provides dependency injection for hibernate configuration
--------------------------------------------------------------------------01:15:44:24
+
 
 --------------------Spring Hibernate Config
-
-
---------------------Mysql and Dao
+-SpringMvcDemo project
+-dependencies added
+    hibernate
+    spring ORM
+    spring transaction
+    mysql connector
+    c3p0
 
 
 --------------------Dao creation
-
-
---------------------Add and Fetch
+-@Transactional annotation
+-SpringMvcDemo project

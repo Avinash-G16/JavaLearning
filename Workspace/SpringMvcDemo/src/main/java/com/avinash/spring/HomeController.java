@@ -1,22 +1,22 @@
 package com.avinash.spring;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
+import com.avinash.spring.dao.AlienDao;
 import com.avinash.spring.model.Alien;
-
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class HomeController 
 {
+	@Autowired
+	private AlienDao dao;
+	
 	@GetMapping("/")
 	public String home()
 	{
@@ -42,14 +42,21 @@ public class HomeController
 	}
 	
 	@RequestMapping("addAlien")
-	public String addAlien(Alien a/*@ModelAttribute("alien") Alien a*/ /*@RequestParam("aid")int aid,@RequestParam("aname")String aname*/)
+	public String addAlien(/*Alien*/ @ModelAttribute("result") Alien a /*@RequestParam("aid")int aid,@RequestParam("aname")String aname*/)
 	{
-		
+		dao.addAlien(a);
 //		Alien a = new Alien();
 //		a.setAid(aid);
 //		a.setAname(aname);
 //		m.addAttribute("alien",a);
-		return "result";
+		return "showAliens";
+	}
+	
+	@GetMapping("getAliens")
+	public String getAliens(Model m)
+	{
+		m.addAttribute("result",dao.getAliens());
+		return "showAliens";
 	}
 	
 	@ModelAttribute
@@ -57,5 +64,12 @@ public class HomeController
 	{
 		m.addAttribute("name","Avinash");
 	}
+	@GetMapping("getAlien")
+	public String getAlien(@RequestParam int aid, Model m)
+	{
+		m.addAttribute("result",dao.getAlien(aid));
+		return "showAliens";
+	}
+	
 	
 }
