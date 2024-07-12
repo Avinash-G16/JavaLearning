@@ -1,2 +1,23 @@
 --------------------Spring Data Jpa Configuration
----------------------------------------------------------01:16:15:00
+-dependencies added
+    mysql connector
+    Spring boot starter jpa Data
+-spring datasource properties in application.properties file
+
+
+--------------------JPARepository
+-JPARepository interface
+-findAll() method
+-SpringMvc project
+
+
+--------------------JPARepository Add & Fetch
+-SpringMvc project
+
+
+--------------------Query DSL
+-Domain Specific Langauage - DSL
+
+
+--------------------Query Annotation
+@Query annotation, @Param annotation

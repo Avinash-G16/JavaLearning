@@ -3,6 +3,7 @@ package com.avinash.springmvc;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -21,6 +22,9 @@ import jakarta.servlet.http.HttpSession;
 @Controller
 public class HomeController 
 {
+	@Autowired
+	AlienRepo repo;
+	
 	@GetMapping("/")
 	public String home()
 	{
@@ -48,8 +52,30 @@ public class HomeController
 	@GetMapping("getAliens")
 	public String getAliens(Model m)
 	{
-		List<Alien> aliens = Arrays.asList(new Alien(101, "Navin"), new Alien(102, "Rose"));
-		m.addAttribute("result", aliens);
+//		List<Alien> aliens = Arrays.asList(new Alien(101, "Navin"), new Alien(102, "Rose"));
+		
+		
+		m.addAttribute("result", repo.findAll());
+		return "showAliens";
+	}
+	
+	@GetMapping("getAlien")
+	public String getAlien(@RequestParam int aid, Model m)
+	{
+//		List<Alien> aliens = Arrays.asList(new Alien(101, "Navin"), new Alien(102, "Rose"));
+		
+		
+		m.addAttribute("result", repo.getReferenceById(aid));
+		return "showAliens";
+	}
+	
+	@GetMapping("getAlienByName")
+	public String getAlienByName(@RequestParam String aname, Model m)
+	{
+//		List<Alien> aliens = Arrays.asList(new Alien(101, "Navin"), new Alien(102, "Rose"));
+		
+		
+		m.addAttribute("result", repo.find(aname));
 		return "showAliens";
 	}
 	
@@ -62,6 +88,8 @@ public class HomeController
 //		a.setAid(aid);
 //		a.setAname(aname);
 //		m.addAttribute("alien",a);
+		
+		repo.save(a);
 		return "result";
 	}
 	

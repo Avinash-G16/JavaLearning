@@ -1,7 +1,12 @@
 package com.avinash.springmvc.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Alien 
 {
+	@Id
 	private int aid;
 	private String aname;
 	public int getAid() {
@@ -10,6 +15,8 @@ public class Alien
 	public void setAid(int aid) {
 		this.aid = aid;
 	}
+	
+	public Alien() {}
 	public Alien(int aid, String aname) {
 		super();
 		this.aid = aid;
