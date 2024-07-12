@@ -32,4 +32,29 @@
 --------------------Model and ModelMap
 -SpringMvc project
 -Model interface
---------------------------------------------------------01:15:00:00
+-ModelMap class
+
+
+--------------------ModelAttribute
+-To pass model in request param
+-@ModelAttribute Annotation
+
+
+--------------------ModelAttribute at method level
+-SpringMvc project
+
+
+--------------------Spring Mvc project
+-SpringMvcDemo project using Maven
+-avinash-servlet xml file
+
+
+--------------------PostMapping
+-SpringMvc project
+
+
+--------------------GetMapping
+-SpringMvc project
+-@GetMapping Annotation
+-@PostMapping Annotation
+-@RequestMapping Annotation
