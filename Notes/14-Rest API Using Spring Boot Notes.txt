@@ -1,7 +1,26 @@
 --------------------What is REST (Representational State)
+-SpringMvc project
+
+
 --------------------What is RESTFul web services
 -GET, POST, PUT, DELETE http methods
 
 
 --------------------Postman Setup
---------------------------------------------------01:16:51:00
+-SpringMvc project
+
+
+--------------------REST GetMapping
+-@ResponseBody annotation
+
+
+--------------------Jackson
+-Json, java object, XML converter (Similar to JsonSerializer)
+
+
+--------------------PathVariable
+-@PathVariable Annotation, @PostMapping annotation
+-SpringMvc project
+
+
+--------------------Jackson XML
