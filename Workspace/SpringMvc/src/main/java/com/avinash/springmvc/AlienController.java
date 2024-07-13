@@ -1,5 +1,6 @@
 package com.avinash.springmvc;
 
+import java.awt.PageAttributes.MediaType;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.avinash.springmvc.model.Alien;
@@ -32,9 +34,9 @@ public class AlienController
 		return alien;
 	}
 	
-	@PostMapping("alien")
+	@PostMapping(path="alien", consumes= {"application/json"})
 	@ResponseBody
-	public Alien addAlien(Alien alien)
+	public Alien addAlien(@RequestBody Alien alien)
 	{
 		repo.save(alien);
 		return alien;

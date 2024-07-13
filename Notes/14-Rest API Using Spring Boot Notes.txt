@@ -24,3 +24,12 @@
 
 
 --------------------Jackson XML
+-Jackson jar file dependency in pom.xml file
+
+
+--------------------Produces Attribute
+-@GetMapping(path="aliens, produces={"application/xml"})
+
+
+--------------------RequestBody and Consumes Attribute
+-Content-type
