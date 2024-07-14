@@ -1,12 +1,20 @@
---------------------Project using Java
-
-
 --------------------Project Using Spring Boot, Data JPA and PostgreSQL
-
-
---------------------Project Using Spring Boot and Spring Web MVC
-
-
-
-
----------------------------------------------------------------------01:17:24:00
+-ProductDemo Project
+-start.spring.io website
+-Dependency Injection
+-@SpringBootApplication annotation
+-@Component annotation
+-getBeans method
+-JpaRepository interface
+-@Repository annotation
+-@Autowired annotation
+-@Entity annotation
+-@Id annotation
+-@GeneratedValue annotation
+-Spring Web dependency
+-pom file
+-Lombok dependency
+-@RestController Annotation
+-@GetMapping annotation
+-@PostMapping annotation
+-@Data (lombok) annotation

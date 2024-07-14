@@ -1,1 +1,15 @@
----------------------------------------------------------01:19:53:00
+-NoSQL db
+-mongoDb 
+-Documents in mongoDb
+-Collections in mongoDb
+-Use of Swagger
+-Spring data mongoDb dependency
+-Swagger2 and Swagger Ui dependency in pom.xml
+-spring.data.mongodb.uri property
+-spring.data.mongodb.database property
+-@Bean annotation
+-@RestMapping annotation
+-@ApiIgnore annotation
+-MongoRepository annotation
+-Indexing in mongoDb
+-@CrossOrigin annotation
