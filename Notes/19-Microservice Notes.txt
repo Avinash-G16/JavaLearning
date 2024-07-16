@@ -50,24 +50,40 @@
 
 --------------------Creating a Quiz Service
 -QuizService
+-Rest Template
 
 
 --------------------Need of Eureka Server
+-to find/discover other microservices
 
 
 --------------------Creating a Service Registry
+-ServiceRegistry Project
 
 
 --------------------Working with Feign
+-Feign client - Provides a way to communicate to other services
+-QuizService Project
 
 
 --------------------Microservice is calling a Microservice
+-@ElementCollection annotation
+-QuizService Project
 
 
 --------------------Completing the 2 Microservices
+-ServiceRegistry Project
+-QuizService Project
+-QuestionService Project
 
 
 --------------------Load Balancing
+-What is Load Balancing
+-Environment class
 
 
 --------------------Api Gateway
+-What is Api Gateway
+-Gateway dependency
+-ApiGateway Project
+-spring.cloud.gateway.discovery.locator.enabled

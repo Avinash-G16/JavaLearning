@@ -1,6 +1,6 @@
 package com.avinash.QuizService.Dao;
 
-import com.avinash.QuizApp.Model.Quiz;
+import com.avinash.QuizService.Model.Quiz;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 
