@@ -1,22 +1,55 @@
---------------------What are microservices
+--------------------What are microservices/Introduction
 -Monolithic Application
 -Horizontal vs Vertical Scaling
 -API Gateway
-------------------------------------------------------------01:22:38:00
+-What is Microservice?
+-IaaS?
+-CaaS?
+-PaaS?
+-FaaS?
+-SaaS?
+-Hybrid Cloud?
+-Blue Green Deployment
+    Like Swapping if two servers in our case
+-Cloud ready vs cloud native
+-12 Factor App
 
---------------------Building Microservices Introduction
+
+--------------------Building Monolithic Project
+-QuizApp Project
+-Controller layer, Service Layer (Business Logic), DAO Layer
+-Postgres naming conventions 
+-HttpStatus codes
+-ResponseEntity class
+-@PathVarible vs @RequestParam annotations
+-@Query annotation
+-Optional type and get() method
+
+
+--------------------Building Microservices
+-failed fast
+-Circuit breaker
+-Every Microservice is an Project.
 
 
 --------------------Creating a Question Service
+-OpenFeign dependency
+-Eureka Discovery Client dependency
+-QuestionService Project
+
 
 
 --------------------Creating a Question Service part 2
+-QuestionService Project
 
 
 --------------------Running the Question Service
+-QuestionService Project
+-Multiple instances using configruation
 
 
 --------------------Creating a Quiz Service
+-QuizService
 
 
 --------------------Need of Eureka Server

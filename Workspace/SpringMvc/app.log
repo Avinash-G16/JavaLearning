@@ -1,0 +1,58 @@
+2024-07-14T12:37:13.068+05:30  INFO 17592 --- [SpringMvc] [main] c.a.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 21.0.3 with PID 17592 (D:\Codes\JavaLearning\Workspace\SpringMvc\target\classes started by Avinash in D:\Codes\JavaLearning\Workspace\SpringMvc)
+2024-07-14T12:37:13.074+05:30  INFO 17592 --- [SpringMvc] [main] c.a.springmvc.SpringMvcApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-14T12:37:14.182+05:30  INFO 17592 --- [SpringMvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-14T12:37:14.273+05:30  INFO 17592 --- [SpringMvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
+2024-07-14T12:37:15.260+05:30  INFO 17592 --- [SpringMvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-14T12:37:15.285+05:30  INFO 17592 --- [SpringMvc] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-14T12:37:15.285+05:30  INFO 17592 --- [SpringMvc] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-14T12:37:15.617+05:30  INFO 17592 --- [SpringMvc] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-14T12:37:15.626+05:30  INFO 17592 --- [SpringMvc] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-14T12:37:15.626+05:30  INFO 17592 --- [SpringMvc] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2446 ms
+2024-07-14T12:37:15.873+05:30  INFO 17592 --- [SpringMvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-14T12:37:16.496+05:30  INFO 17592 --- [SpringMvc] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@117b2cc6
+2024-07-14T12:37:16.501+05:30  INFO 17592 --- [SpringMvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-14T12:37:16.590+05:30  INFO 17592 --- [SpringMvc] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-14T12:37:16.735+05:30  INFO 17592 --- [SpringMvc] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-14T12:37:16.848+05:30  INFO 17592 --- [SpringMvc] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-14T12:37:17.586+05:30  INFO 17592 --- [SpringMvc] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-14T12:37:17.715+05:30  WARN 17592 --- [SpringMvc] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-14T12:37:19.146+05:30  INFO 17592 --- [SpringMvc] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-14T12:37:19.152+05:30  INFO 17592 --- [SpringMvc] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-14T12:37:20.140+05:30  INFO 17592 --- [SpringMvc] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-14T12:37:21.284+05:30  WARN 17592 --- [SpringMvc] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-14T12:37:21.338+05:30  INFO 17592 --- [SpringMvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-14T12:37:21.989+05:30  INFO 17592 --- [SpringMvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-14T12:37:22.017+05:30  INFO 17592 --- [SpringMvc] [main] c.a.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 9.744 seconds (process running for 11.172)
+2024-07-14T12:51:31.813+05:30  INFO 17592 --- [SpringMvc] [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-07-14T12:51:31.848+05:30  INFO 17592 --- [SpringMvc] [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-14T12:51:31.852+05:30  INFO 17592 --- [SpringMvc] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-14T12:51:31.878+05:30  INFO 17592 --- [SpringMvc] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-14T12:51:37.179+05:30  INFO 15696 --- [SpringMvc] [main] c.a.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 21.0.3 with PID 15696 (D:\Codes\JavaLearning\Workspace\SpringMvc\target\classes started by Avinash in D:\Codes\JavaLearning\Workspace\SpringMvc)
+2024-07-14T12:51:37.185+05:30  INFO 15696 --- [SpringMvc] [main] c.a.springmvc.SpringMvcApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-14T12:51:38.753+05:30  INFO 15696 --- [SpringMvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-14T12:51:38.890+05:30  INFO 15696 --- [SpringMvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interface.
+2024-07-14T12:51:40.082+05:30  INFO 15696 --- [SpringMvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-14T12:51:40.127+05:30  INFO 15696 --- [SpringMvc] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-14T12:51:40.127+05:30  INFO 15696 --- [SpringMvc] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-14T12:51:40.502+05:30  INFO 15696 --- [SpringMvc] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-14T12:51:40.513+05:30  INFO 15696 --- [SpringMvc] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-14T12:51:40.513+05:30  INFO 15696 --- [SpringMvc] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3197 ms
+2024-07-14T12:51:40.805+05:30  INFO 15696 --- [SpringMvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-14T12:51:41.599+05:30  INFO 15696 --- [SpringMvc] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73aaec54
+2024-07-14T12:51:41.603+05:30  INFO 15696 --- [SpringMvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-14T12:51:41.700+05:30  INFO 15696 --- [SpringMvc] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-14T12:51:41.876+05:30  INFO 15696 --- [SpringMvc] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-14T12:51:41.991+05:30  INFO 15696 --- [SpringMvc] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-14T12:51:42.707+05:30  INFO 15696 --- [SpringMvc] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-14T12:51:42.864+05:30  WARN 15696 --- [SpringMvc] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-14T12:51:44.731+05:30  INFO 15696 --- [SpringMvc] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-14T12:51:44.738+05:30  INFO 15696 --- [SpringMvc] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-14T12:51:45.238+05:30  INFO 15696 --- [SpringMvc] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-14T12:51:46.269+05:30  WARN 15696 --- [SpringMvc] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-14T12:51:46.376+05:30  INFO 15696 --- [SpringMvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-14T12:51:47.240+05:30  INFO 15696 --- [SpringMvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-14T12:51:47.259+05:30  INFO 15696 --- [SpringMvc] [main] c.a.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 10.963 seconds (process running for 12.871)
+2024-07-14T13:01:26.111+05:30  INFO 15696 --- [SpringMvc] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-07-14T13:01:26.161+05:30  INFO 15696 --- [SpringMvc] [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-14T13:01:26.168+05:30  INFO 15696 --- [SpringMvc] [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-14T13:01:26.205+05:30  INFO 15696 --- [SpringMvc] [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

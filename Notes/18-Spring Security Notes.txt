@@ -1,21 +1,40 @@
 --------------------What is Spring Security?
 -Authentication
 -Authorization
-----------------------------------------------------01:21:28:00
+
 
 --------------------Spring Security Part 2
+-Spring boot Start Security dependency
+-Tomcat jasper dependency
+-SpringSecurityApp project
 
 
 --------------------Spring Security Part 3
+-WebSecurityConfigurerAdapter class
+-@Configuration annotation
+-@EnableWebSecurity
+-UserDetails and UserDetailsService classes
+-withDefaultPasswordEncoder method
+-predefined roles
+-InMemoryUserDetailsManager class
+-SpringSecurityApp project
 
 
 --------------------Spring Security | MySQL part 4
+-DaoAuthenticationProvider class
+-AuthenticationProvider class
+-SpringSecurityApp project
 
 
 --------------------Spring Security | BCrypt Password Encoder part 5
+-Bcrypt hash?
+-SpringSecurityApp project
 
 
 --------------------Spring Security Form Login part 6
+-SpringSecurityApp project
 
 
 --------------------Spring Boot Security OAuth 2
+-@EnableOAuth2Sso annotation
+-Spring OAuth dependency
