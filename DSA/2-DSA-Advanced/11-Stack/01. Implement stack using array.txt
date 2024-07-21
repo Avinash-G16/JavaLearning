@@ -1,5 +1,0 @@
-1 - Solve On Local
-2 - Solve On GFG If Exist
-3 - Solve On Leetcode If Exist
-4 - Read Articles For Other Solutions On GFG Or Leetcode and Write Down The Good/Best Solutions to Local Code Base
-5 - Revise Local Code Base and Move To Next Problem
