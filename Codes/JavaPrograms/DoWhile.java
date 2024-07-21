@@ -1,8 +1,8 @@
 public class DoWhile {
-    public static void main(String args[]){
+    public static void main(String args[]) {
         int i = 5;
-        do{
+        do {
             System.out.println("Hi");
-        }while(i<5);
+        } while (i < 5);
     }
 }
